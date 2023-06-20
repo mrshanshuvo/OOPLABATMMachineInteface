@@ -30,7 +30,6 @@ public class Admin {
                 frame.dispose();
             }
         });
-        //------------------------------------------
 
         //--------------EXIT---------------------------
         JButton exit = new JButton("EXIT");
@@ -43,7 +42,7 @@ public class Admin {
                 System.exit(0);
             }
         });
-        //---------------------------------------------
         frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

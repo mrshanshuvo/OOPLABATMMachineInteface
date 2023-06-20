@@ -81,5 +81,6 @@ public class Quick {
                 frame.dispose();
             }
         });
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

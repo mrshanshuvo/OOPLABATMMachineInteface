@@ -27,7 +27,7 @@ public class Login extends Commons{
         cardNumber.setFont(txt);
         frame.add(cardNumber);
         frame.add(card);
-        //-----------------------------------------
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //----------------ADMIN--------------------
         JLabel admin = new JLabel("ADMIN LOGIN >");
@@ -41,7 +41,6 @@ public class Login extends Commons{
                 frame.dispose();
             }
         });
-        //------------------------------------------
 
         //-----------------BUTTON-----------------
         JButton cont = new JButton("COUNTINUE");
@@ -61,9 +60,7 @@ public class Login extends Commons{
                     frame.dispose();
                 }
             }
-
         });
-        //----------------------------------------
         frame.setVisible(true);
     }
 }

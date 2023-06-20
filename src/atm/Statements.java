@@ -63,8 +63,7 @@ public class Statements {
             model.setValueAt(rst.getInt("bal"), i, 3);
             i++;
         }
-        //-----------------------------------------------------
-
         frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

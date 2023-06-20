@@ -105,5 +105,6 @@ public class Home {
                 frame.dispose();
             }
         });
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
