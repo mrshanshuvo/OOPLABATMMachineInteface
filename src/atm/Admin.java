@@ -18,6 +18,7 @@ public class Admin {
         add.setBounds(150, 250, 300, 100);
         add.setFont(new Font("Rockwell", Font.BOLD, 25));
         frame.add(add);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         add.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
